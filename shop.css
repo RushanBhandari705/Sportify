@@ -16,7 +16,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 200%;
     z-index: 1000;
     background: rgba(10, 14, 39, 0.95);
     backdrop-filter: blur(10px);
@@ -35,7 +35,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #ffa500;
 }
 
@@ -52,7 +52,7 @@ nav {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: color 0.3s;
+    transition: color 0.5s;
 }
 
 .nav-links a:hover {
@@ -71,7 +71,7 @@ nav {
     background: #ffa500;
     color: #0a0e27;
     border-radius: 50%;
-    width: 20px;
+    width: 30px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ nav {
 
 .hero-content {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -138,7 +138,7 @@ nav {
 /* Shop Sections */
 .shop-categories,
 .featured-products {
-    padding: 5rem 5%;
+    padding: 6rem 5%;
     background: #0a0e27;
 }
 
@@ -148,7 +148,7 @@ nav {
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 3rem;
     color: #fff;
