@@ -1,12 +1,4 @@
-// Simple Shopping Cart
-let cart = [];
 
-// Load cart from localStorage on page load
-document.addEventListener('DOMContentLoaded', function() {
-    loadCart();
-    updateCartCount();
-    setupCartButtons();
-});
 
 // Load cart from localStorage
 function loadCart() {
