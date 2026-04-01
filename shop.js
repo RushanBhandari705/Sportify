@@ -8,11 +8,6 @@ function loadCart() {
     }
 }
 
-// Save cart to localStorage
-function saveCart() {
-    localStorage.setItem('sportify_cart', JSON.stringify(cart));
-    updateCartCount();
-}
 
 // Update cart count in header
 function updateCartCount() {
