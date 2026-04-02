@@ -18,7 +18,7 @@ header {
     top: 0;
     width: 300%;
     z-index: 1010;
-    background: rgba(10, 14, 39, 0.95);
+    background: rgba(10, 14, 40, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
